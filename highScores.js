@@ -7,3 +7,6 @@ clear.addEventListener("click", function() {
     location.reload();
 });
 
+var allScores =localStorage.getItem("allScores");
+allScores = JSON.parse(allScores);
+
